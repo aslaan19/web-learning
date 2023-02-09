@@ -1,0 +1,201 @@
+kushari {
+    color: darkred;
+    font: bold;
+}
+
+h1 {
+    color: blue;
+}
+
+Aslan {
+    color: rgb(227, 81, 27);
+    font-style: italic;
+    font-weight: 200;
+    box-shadow: 0em;
+}
+
+
+
+b+button:hover {
+    background-color: #ffa62b;
+    size: 2cm;
+    text-transform: uppercase;
+    color: #463f3a;
+}
+
+b+button:active {
+    size: 3cm;
+    background-color: #7cb518;
+}
+
+body {
+    background-color: rgba(195, 214, 211, 0.873);
+}
+
+::selection {
+    background-color: #e0afa0;
+}
+
+h1::selection {
+    background-color: #7cb518;
+
+}
+
+select {
+    border-color: cornflowerblue;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #9ef01a;
+}
+
+select+button {
+    border-color: #3661be;
+    border-width: 3px;
+    border-style: dotted;
+    background-color: #e7c6ff;
+}
+
+input+button:hover {
+    background-color: #2a9d8f !important;
+
+}
+
+select+button:active {
+    background-color: #ccd5ae !important;
+    text-decoration: line-through wavy #ffb703;
+}
+
+select+button:hover {
+    border-color: #134074;
+    border-width: 2px;
+    border-style: dashed;
+    background-color: #7913c2;
+}
+
+#yout {
+    background-color: crimson;
+    border-radius: 80px 0px 120px 20px;
+    color: #e7c6ff;
+    transition: 1s;
+}
+
+#yout :hover {
+    background-color: rgb(20, 220, 47);
+    border-radius: 80px 0px 120px 20px;
+    color: #850edb;
+    margin-left: 500px;
+}
+
+#logo {
+    position: fixed;
+    margin-bottom: 20%;
+    margin-left: 90%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-color: #fdc500;
+    border-style: dashed;
+    border-width: 5px;
+    padding: 3px;
+    transition: transform 3.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+}
+
+#logo:hover {
+    transform: translatex(-500px) scale(1.2);
+    border-radius: 50%;
+    border-color: rgba(4, 142, 4, 0.901);
+    border-style: double;
+    border-width: 6px;
+    padding: 2px;
+
+}
+
+#logo:active {
+    transform: rotate(180deg);
+    border-radius: 50%;
+    border-color: red;
+    border-style: ridge;
+    border-width: 6px;
+    padding: 2px;
+}
+
+
+#specialbutton {
+    margin-top: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #151b29;
+}
+
+.thebutton {
+    margin-left: 50%;
+    margin-top: 125px;
+    border-color: orange;
+    padding: 5px;
+    color: orange;
+    width: 100px;
+    height: 50px;
+    background-color: #151b29;
+    font-family: cursive;
+    transition: 0.4s;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.thebutton:hover {
+    color: white;
+    border-radius: 5x;
+    border-color: #f1ff5c;
+    box-shadow: 0px 3.5px 2.7px -0.8px wheat;
+    transform: translatey(-2.8px);
+    cursor: pointer;
+    font-family: cursive;
+    font-size: larger;
+
+}
+
+.thebutton:active {
+    color: rgb(227, 81, 27);
+    border-radius: 40%;
+    width: 90px;
+    border-color: #ffa55c;
+    box-shadow: 0 3px 2px 3px rgb(248, 95, 30);
+    width: 100px;
+    height: 45px;
+    transition: 0.1s;
+}
+
+section {
+    font-family: Courgette, cursive;
+    text-align: center;
+    margin: 0 auto;
+    height: 250px;
+    width: 100%;
+    background-image: url(wallpapersden.com_programming-coding-language_1920x1080.jpg);
+}
+
+section>h1 {
+    margin-left: 450px;
+    transform: translateY(20px);
+    color: #c9a60d;
+    border: 4mm ridge;
+    border-color: red;
+    padding: 2px;
+    width: 35%;
+    transition: 1s;
+}
+
+section>h1:active {
+    color: #c9a60d;
+    border: 4mm ridge;
+    border-color: red;
+    padding: 2px;
+    width: 35%;
+    transform: rotate(360deg) translateY(-20px);
+}
+
+#minions {
+    width: 50px;
+    color: #2a9d8f;
+}

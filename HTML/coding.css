@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+}
+
+#container {
+	background-color: darkblue;
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	border: 5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	transition: 1s;
+
+
+}
+
+#container div {
+	width: 22.5%;
+	height: 200px;
+	flex-basis: 22.5%;
+}
+
+div:nth-of-type(3):hover {
+	flex-grow: 1;
+}
+
+div:nth-of-type(5):hover {
+	flex-grow: 2;
+}
+
+div:nth-of-type(5):hover {
+	flex-shrink: 2;
+}

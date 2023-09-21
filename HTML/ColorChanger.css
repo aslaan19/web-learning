@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	margin: auto;
+
+}
+
+.button-container {
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+}
+
+input {
+	text-align: center;
+	margin: auto;
+}

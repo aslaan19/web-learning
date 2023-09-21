@@ -1,3 +1,4 @@
+/*
 const reset = document.querySelector('#Reset');
 const winScoreSelect = document.querySelector('#playto');
 
@@ -56,3 +57,22 @@ function Reset() {
 	player1.button.disabled = false;
 	player2.button.disabled = false;
 }
+*/
+
+
+const req = new XMLHttpRequest();
+
+req.onload = function () {
+	console.log("DONE!!")
+	console.log((this.responseText))
+}
+
+req.onerror = function () {
+	console.log("Not DONE!!")
+	console.log(this)
+}
+
+
+
+req.open("Get", "https://catfact.ninja/factos")
+req.send()

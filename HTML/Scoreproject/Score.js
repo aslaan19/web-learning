@@ -64,7 +64,8 @@ const req = new XMLHttpRequest();
 
 req.onload = function () {
 	console.log("DONE!!")
-	console.log((this.responseText))
+	const data = JSON.parse(this.responseText)
+	console.log("The fact is :", data.data[0].fact)
 }
 
 req.onerror = function () {
@@ -74,5 +75,5 @@ req.onerror = function () {
 
 
 
-req.open("Get", "https://catfact.ninja/factos")
+req.open("Get", "https://catfact.ninja/facts")
 req.send()

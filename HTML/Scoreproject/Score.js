@@ -70,7 +70,8 @@ req.onload = function () {
 
 req.onerror = function () {
 	console.log("Not DONE!!!")
-	console.log(this)
+	console.log(this+"a")
+	
 }
 
 

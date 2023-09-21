@@ -69,7 +69,7 @@ req.onload = function () {
 }
 
 req.onerror = function () {
-	console.log("Not DONE!!")
+	console.log("Not DONE!!!")
 	console.log(this)
 }
 

@@ -65,13 +65,13 @@ const req = new XMLHttpRequest();
 req.onload = function () {
 	console.log("DONE!!")
 	const data = JSON.parse(this.responseText)
-	console.log("The fact is :", data.data[0].fact)
+	console.log("The fact is  : ", data.data[0].fact)
 }
 
 req.onerror = function () {
 	console.log("Not DONE!!!")
 	console.log(this+"a")
-	
+
 }
 
 

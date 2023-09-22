@@ -116,4 +116,4 @@ fetch("https://catfact.ninja/facts")
 theLast() */
 
 const res = axios.get("https://catfact.ninja/fact")
-	.then((res) => console.log(res.data.factby))
+	.then((res) => console.log(res.data.fact))

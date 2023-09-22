@@ -78,7 +78,7 @@ req.onerror = function () {
 
 req.open("Get", "https://catfact.ninja/facts")
 req.send() */
-
+/* 
 fetch("https://catfact.ninja/facts")
 	.then((res) => {
 		console.log("mew", res)
@@ -100,4 +100,17 @@ fetch("https://catfact.ninja/facts")
 	)
 
 
-	.catch((e) => { console.log("Erorr!", e) })
+	.catch((e) => { console.log("Erorr!", e) }) */
+
+const theLast = async () => {
+	try {
+		const res = await fetch("https://catfact.ninja/fact")
+		const data = await res.json()
+		console.log(data.fact)
+	}
+	catch {
+		console.log("Eror!")
+	}
+}
+
+theLast()

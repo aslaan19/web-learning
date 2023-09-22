@@ -102,7 +102,7 @@ fetch("https://catfact.ninja/facts")
 
 	.catch((e) => { console.log("Erorr!", e) }) */
 
-const theLast = async () => {
+/* const theLast = async () => {
 	try {
 		const res = await fetch("https://catfact.ninja/fact")
 		const data = await res.json()
@@ -113,4 +113,7 @@ const theLast = async () => {
 	}
 }
 
-theLast()
+theLast() */
+
+const res = axios.get("https://catfact.ninja/fact")
+	.then((res) => console.log(res.data.factby))

@@ -59,7 +59,7 @@ function Reset() {
 }
 */
 
-
+/* 
 const req = new XMLHttpRequest();
 
 req.onload = function () {
@@ -77,4 +77,26 @@ req.onerror = function () {
 
 
 req.open("Get", "https://catfact.ninja/facts")
-req.send()
+req.send() */
+
+fetch("https://catfact.ninja/facts")
+	.then((res) => {
+		console.log("mew", res)
+		return res.json()
+	})
+	.then((data) => {
+		console.log("json", data)
+		return fetch("https://catfact.ninja/fact")
+	}
+	)
+	.then((res2) => {
+		console.log("Second req", res2)
+		return res2.json
+	})
+	.then((data) => {
+		console.log("json", data)
+		return fetch("https://catfact.ninja/fact")
+	})
+
+	
+	.catch((e) => { console.log("Erorr!", e) })

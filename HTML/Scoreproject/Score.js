@@ -90,13 +90,14 @@ fetch("https://catfact.ninja/facts")
 	}
 	)
 	.then((res2) => {
-		console.log("Second req", res2)
-		return res2.json
+		console.log("Req 2 :", res2)
+		return res2.json()
 	})
-	.then((data) => {
-		console.log("json", data)
-		return fetch("https://catfact.ninja/fact")
-	})
+	.then((data2) => {
+		console.log("json 2 :", data2)
 
-	
+	}
+	)
+
+
 	.catch((e) => { console.log("Erorr!", e) })

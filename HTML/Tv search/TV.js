@@ -8,14 +8,22 @@ form.addEventListener("submit", async function (e) {
 	try {
 		const seaerch = form.elements.Qol.value
 		const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${seaerch}`)
-		const img = res.data[0].show.image.medium
-		const Nimg = document.createElement('img')
-		Nimg.src = img;
-		document.body.append(Nimg)
+		const rd = res.data
+		imagemaker(rd)
+		
 
 	} catch (error) {
 		console.log("not found !!")
 	}
 
+	function imagemaker(shows) {
+
+		for (let show of shows) {
+			const img = document.createElement('img')
+			img.src = show.show.image.medium;
+			document.body.append(img)
+		}
+
+	}
 
 })

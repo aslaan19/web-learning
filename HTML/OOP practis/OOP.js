@@ -13,7 +13,9 @@ const Aslan = {
 }
 
 const helal = Object.create(Aslan)
+const omar = Object.assign({},Aslan)
 
-helal.age = 18
-helal.leader = false
+omar.leader = false
+
+
 

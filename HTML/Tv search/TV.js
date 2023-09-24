@@ -17,7 +17,7 @@ form.addEventListener("submit", async function (e) {
 	}
 
 	function imagemaker(shows) {
-		const line = document.createElement('li')
+		const line = document.createElement('ol')
 
 		document.body.append(line)
 		for (let show of shows) {

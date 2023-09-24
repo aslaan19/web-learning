@@ -1,4 +1,4 @@
-/*
+
 const reset = document.querySelector('#Reset');
 const winScoreSelect = document.querySelector('#playto');
 
@@ -57,9 +57,9 @@ function Reset() {
 	player1.button.disabled = false;
 	player2.button.disabled = false;
 }
-*/
+/*
 
-/* 
+ 
 const req = new XMLHttpRequest();
 
 req.onload = function () {
@@ -77,8 +77,8 @@ req.onerror = function () {
 
 
 req.open("Get", "https://catfact.ninja/facts")
-req.send() */
-/* 
+req.send() 
+
 fetch("https://catfact.ninja/facts")
 	.then((res) => {
 		console.log("mew", res)
@@ -113,7 +113,7 @@ fetch("https://catfact.ninja/facts")
 	}
 }
 
-theLast() */
+theLast() 
 
 const res = axios.get("https://catfact.ninja/fact")
-	.then((res) => console.log(res.data.fact))
+	.then((res) => console.log(res.data.fact))*/

@@ -30,5 +30,5 @@ let omar = new Obj("omar",19,"hh")
 let Ali = new Obj("or",15,"hhh")
 let AHmaed = new Obj("oar",20,"hfdas")
 Obj.prototype.hamd = function nigga() {
-	console.log("wassup nigga !")
+	console.log("wassup nigga +!")
 }

@@ -1,20 +1,8 @@
-const Aslan = {
-	leader: true,
-	name: "Abdullah",
-	age: 15,
-
-	/* etData : function getData() {
-		return `he is ${this.name}  and he is ${this.age} years old !`	
-	},
-	Isleader : function Isleader(params) {
-		return` He ${this.leader ? "is " : "is not "} a leader`
-	} */
-
-}
+/* A
 
 //const helal = Object.create(Aslan)
 //const omar = Object.assign({},Aslan)
-let data = ""
+/* let data = ""
 let count = 0
 const H= document.querySelector('H1')
 for(let info in Aslan){
@@ -25,11 +13,22 @@ for(let info in Aslan){
 	}
 	
 	
+} */
+
+
+/* console.log(data)
+const div = document.querySelector('div')
+div.innerHTML = data */
+
+ function Obj(name,num,boom){
+	this.name = name
+	this.num = num -10
+	this.boom = boom + "@#"
 }
 
-
-console.log(data)
-const div = document.querySelector('div')
-div.innerHTML = data
-
-
+let omar = new Obj("omar",19,"hh")
+let Ali = new Obj("or",15,"hhh")
+let AHmaed = new Obj("oar",20,"hfdas")
+Obj.prototype.hamd = function nigga() {
+	console.log("wassup nigga !")
+}

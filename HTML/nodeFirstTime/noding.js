@@ -1,3 +1,8 @@
-for(let i =0; i<11;i++){
-	console.log("aslan the leader")
-}
+const {getnigga} = require('./OON')
+
+
+getnigga("hamed")
+
+console.log("###########")
+
+getnigga("Aslan")

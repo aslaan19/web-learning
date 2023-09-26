@@ -47,7 +47,7 @@ class leader extends Stud{
 
 }
 
-
+let Asln= "leader"
 const omar = new Stud("omar",2022)
 const abod = new Stud("abod",2023)
 const hassan = new Stud("hassa",2002)
@@ -55,7 +55,11 @@ const karm = new Stud("kemo",2028)
 const abdo = new leader("aslan",2021,"egayptianooo")
 abdo.getnationality()
 
+const getnigga= (name) =>name==="Aslan"?console.log("nigaa!") :console.log("who the hell are you")
+
+module.exports.Asln = Asln;
 exports.Stud = Stud;
+module.exports.getnigga = getnigga;
 
 
 /* let omar = new Obj("omar",19,"hh")

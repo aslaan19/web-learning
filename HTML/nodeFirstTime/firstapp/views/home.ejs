@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+    <h1>Hello your number is : <%= rand %></h1>
+    <% if (rand%2 ===0){ %>
+    <h2> it is an even number !</h2>
+    <% } else { %>
+    <h2>it is an odd number !</h2>
+    <% } %>
+    <h2><%= rand%2 ===0 ? "even" : "odd" %></h2>
+
+    <%- include('partials/footer.ejs') %>

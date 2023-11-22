@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All cars</title>
+</head>
+<body>
+    <h1>All Cars !!</h1>
+
+    <ul>
+        <% if (cars && cars.length > 0) { %>
+            <% for (let car of cars) { %>
+                <li><a href="/cars/<%= car._id %>"><%= car.name %></a></li>
+            <% } %>
+        <% } else { %>
+            <li>No cars available</li>
+        <% } %>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palastine Flag</title>
+</head>
+<body>
+    <script>
+        let body = document.querySelector("body")
+        body.style.margin = "0"
+
+        let container = document.createElement("div")
+        container.style.width = "100%"
+        container.style.height = "100vh"
+        container.style.position = "reltive"
+        body.appendChild(container)
+
+        let black = document.createElement("div")
+        black.style.position = "absolute"
+        black.style.width = "100%"
+        black.style.height = "33.333%"
+        black.style.backgroundColor ="black"
+
+        container.appendChild(black)
+
+
+        let green = document.createElement("div")
+        green.style.position = "absolute"
+        green.style.width = "100%"
+        green.style.top = "66.667%"
+        green.style.height = "33.333%"
+        green.style.backgroundColor ="green"
+
+        container.appendChild(green)
+
+
+        let red = document.createElement("div")
+        red.style.position = "absolute"
+        red.style.borderStyle = "solid"
+        red.style.borderWidth = "50vh"
+
+        red.style.borderColor ="transparent transparent transparent red"
+
+        container.appendChild(red)
+    </script>
+</body>
+</html>

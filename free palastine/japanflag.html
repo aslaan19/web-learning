@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onichan</title>
+</head>
+<body>
+    <script>
+        const body = document.createElement("body")
+        const container = document.createElement("div")
+        container.style.position = "fixed"
+        container.style.width = "20%"
+        container.style.height ="200px"     
+        container.style.marginLeft ="38%"
+        container.style.marginTop ="10%" 
+
+        body.appendChild(container)
+        const cirle = document.createElement("div")
+        
+        cirle.style.borderStyle = "solid"
+        cirle.style.borderWidth ="120px"
+        cirle.style.borderColor = "red"
+        cirle.style.borderRadius = "50%"
+        container.appendChild(cirle)
+        document.body.appendChild(body)
+
+    </script>
+</body>
+</html>

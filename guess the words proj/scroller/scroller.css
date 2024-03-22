@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 5000px; /* Set minimum height to create scrollable area */
+    background-color: #ddd; /* Grey background */
+}
+
+.scroll-wrapper {
+    position: fixed;
+    top: 0;
+    left: 20px; /* Add 'px' unit */
+    width: 100px; /* Adjust width to consider left margin */
+    height: 5px;
+    background-color: blue; /* Style the scrollbar (Chrome, Edge) */
+}

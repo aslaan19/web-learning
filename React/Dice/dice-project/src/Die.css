@@ -1,0 +1,23 @@
+.valueBlock {
+	display: inline-block;
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px; /* Increased padding for larger blocks */
+	border-radius: 10px; /* Adjusted for a more rounded look */
+	font-size: 24px; /* Larger text */
+	margin: 5px; /* Optional: Adds some space around each block if needed */
+	
+  }
+  
+  .diceContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center; /* Centers items horizontally */
+	border: 2px solid #4CAF50; /* Adds a border around each dice container */
+	padding: 20px; /* Adds padding inside the border, around the dice */
+	margin: 20px; /* Adds margin outside the border, between containers */
+	border-radius: 10px; /* Optional: Adds rounded corners to the container */
+  }
+  
+  

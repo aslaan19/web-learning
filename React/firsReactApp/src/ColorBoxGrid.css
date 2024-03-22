@@ -1,0 +1,17 @@
+.grider {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr); /* Creates 5 equal columns */
+	grid-template-rows: repeat(5, 1fr); /* Creates 5 equal rows */
+	width: 100%; /* Adjust based on the maximum width you desire */
+	max-width: 1000px; /* Sets a max-width for the grid container */
+	margin: auto; /* Center the grid horizontally */
+  }
+  
+  .color-box {
+	background-color: var(--box-color, skyblue); /* Example background color, replace as needed */
+	aspect-ratio: 1 / 1; /* Ensures each box is square */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
